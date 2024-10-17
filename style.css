@@ -1,0 +1,78 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00e1ff, #282cfc, #6c57ca);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .mainpic {
+
+    width: 50%;
+    height: 400px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    object-fit: cover;
+   
+
+}
+
+.accessories {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 40px;
+}
+
+#features {
+  background-color: rgb(255, 230, 0);
+  
+}
+
+.card1 {
+  width: 200px; /* set a fixed width */
+  height: 200px; /* set a fixed height */
+  background-image: url('./wallhaven-968p1x.jpg');
+  background-size: cover; /* scale the image to cover the entire card */
+  
+}
+
+.card2 {
+  width: 200px; /* set a different width for the second card */
+  height: 200px; /* set a different height for the second card */
+  background-image: url('./wallhaven-gpg5ql.jpg');
+  background-size: cover; /* scale the image to cover the entire card */
+  
+}
+
+.card3 {
+  width: 200px; /* set a different width for the third card */
+  height: 200px; /* set a different height for the third card */
+  background-image: url('./wallhaven-kx5v57.jpg');
+  background-size: cover; /* scale the image to cover the entire card */
+  
+} 
+
+.row {
+  
+  justify-content: space-between;
+  text-align: center;
+ 
+}
+#carousel {
+  margin:30px ;
+}
+
+.jumbotron-bg {
+  background-image: url('./wallhaven-968p1x.jpg');
+  background-size: cover;
+  height: 300px;
+}
